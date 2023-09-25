@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+    @font-face{
+        font-family: 'Frankie';
+        src: url('Frankie Healthy.otf') format('opentype'), url('Frankie Healthy.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+
+body{
+    background-color: rgb(240, 157, 89);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Frankie', Times, serif;
+    color: rgba(185, 230, 233, 0.918);
+}
+
+h2{
+    background-color: aliceblue; 
+}

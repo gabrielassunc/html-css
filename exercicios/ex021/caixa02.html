@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(72, 99, 81);
+        }
+
+        header{
+            background-color: white;
+            padding: 10px 10px 10px 10px;
+            margin: 10px; 
+        }
+
+        nav{
+            background-color: rgba(95, 158, 160, 0.295);
+            padding: 3px;
+            box-shadow: 1px 0px 6px rgb(211, 206, 206);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(76, 75, 75);
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;                                               
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;   /*arredondar borda*/
+        }
+
+        section > p {
+            color: rgba(31, 30, 30, 0.788);
+        }
+
+        article{
+            background-color: rgba(211, 211, 211, 0.247);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(211, 211, 211, 0.555);
+
+        }
+
+
+        footer{
+            background-color: rgba(36, 35, 35, 0.233);
+            color: white;
+            font-weight: lighter;
+            text-align: center; 
+            padding: 3px;
+            box-shadow: 0px 0px 9px rgba(36, 35, 35, 0.233);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esportes Mania</h1>
+        <nav>
+            <a href="#">Esportes</a>
+            <a href="#">Notícias</a>
+            <a href="#">Galeria</a>
+            <a href="#">Ao vivo</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Veja Agora">
+            <p>Tudo disponível para você</p>
+            <article>
+                <h2>Veja:</h2>
+                <p>O dia em que a terra parou? Tudo sobre a economia mundial você encontra aqui!</p>
+                <aside>
+                    <p>Site Criado por Gabriel Assunção</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Gabriel</p>
+    </footer>
+    
+</body>
+</html>
